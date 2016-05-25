@@ -5,7 +5,7 @@ file=/home/sulaiman/data/customers/esp/espmemberdb/members.xml; # LOCAL FILE
 if [ -f "$file" ];
 then
 	echo "$file found."
-	mail -s "Found" s.abboud@globit.com <<< 'The file is found'
+	mail -s "Found" sulaimanabboud@gmail.com <<< 'The file is found'
 else
 	mail -s "not found" s.abboud@globit.com <<< 'a random message'
 	echo "$file not found."
