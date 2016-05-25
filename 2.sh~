@@ -1,0 +1,1 @@
+if test -f "data/customers/esp/espmemberdb"; then echo "The File Exists";fi
